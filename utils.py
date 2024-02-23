@@ -231,7 +231,7 @@ class Utils():
       Returns:
           Object: optimizer object
     """
-    return optim.SGD(model.parameters(), lr=10.01, momentum=0.9) # set SDG optimizer with model paramtters, learning rate and momentum
+    return optim.SGD(model.parameters(), lr=0.001, momentum=0.9) # set SDG optimizer with model paramtters, learning rate and momentum
 
   # Function to get the training scheduler
   def get_scheduler(self, optimizer):
