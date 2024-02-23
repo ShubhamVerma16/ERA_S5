@@ -5,7 +5,7 @@
   <pre>drive.mount('/content/drive/', force_remount=True)</pre>  
 - Once mount is complete, the directory is changed to where the files are present.
   <pre>%cd /content/drive/[required_dir]</pre>
-- S5.ipynb python notebook includs the implmentation as the main code. The file imports the other 2 modules and calls the required class and its methods.
+- ERA_S5.ipynb python notebook includs the implmentation as the main code. The file imports the other 2 modules and calls the required class and its methods.
 - utils.py includes Utils class with the utility methods required for the model to train and to load the data.
 - model.py incldes the model class with the CNN architecture and forward pass defined.
 
@@ -31,7 +31,7 @@ The model is a CNN based model with 2D convolutions and fully connected layers.
 
 The repositior follows the below folder strucutre.
 <pre>ERA_S5
-  |── S5.ipynb
+  |── ERA_S5.ipynb
   |── model.py
   |── utils.py
   |── README.md
@@ -39,6 +39,6 @@ The repositior follows the below folder strucutre.
 </pre>
 
 
-Run the S5.ipynb file to go through the entire process of loading hte dataset and training on the CNN model defined.
+Run the ERA_S5.ipynb file to go through the entire process of loading hte dataset and training on the CNN model defined.
 
 
