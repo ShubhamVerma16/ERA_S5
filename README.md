@@ -23,6 +23,7 @@ The repositior follows the below folder strucutre.
   |── model.py
   |── utils.py
   |── README.md
+  |── .gitignore
 
 Run the S5.ipynb file to go through the entire process of loading hte dataset and training on the CNN model defined.
 
