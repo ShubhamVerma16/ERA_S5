@@ -39,6 +39,7 @@ The repositior follows the below folder strucutre.
 </pre>
 
 
-Run the ERA_S5.ipynb file to go through the entire process of loading hte dataset and training on the CNN model defined.
+Run the ERA_S5.ipynb file to go through the entire process of loading the dataset and training on the CNN model defined.
 
-
+The model trains with Loss=0.0964 and Accuracy=97.21. The training curves are as below:
+![image](https://github.com/ShubhamVerma16/ERA_S5/assets/46774613/c33fd93a-f4f2-4afc-a2f6-d6d8875df1d1)
